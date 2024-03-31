@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Learning</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+</head>
+<body class="container">
+        <header class="header">
+                <nav class="nav">
+                        <ul>
+                                <li><a href="#" class="btn nav_btn">Home</a></li>
+                                <li><a href="webpages/subjects.html" class="btn nav_btn">Subjects</a>
+                                        <div class="btn_menu">
+                                                <ul>
+                                                        <li><a href="webpages/physics.html">physics</a></li>
+                                                        <li><a href="#">chemistry</a></li>
+                                                        <li><a href="#">Maths</a></li>
+                                                        <li><a href="#">CSE</a></li>
+                                                </ul>
+                                        </div>
+                                </li>
+                                <li><a href="#" class="btn nav_btn">Answers</a>
+                                        <div class="btn_menu">
+                                                <ul>
+                                                        <li><a href="#">physics</a></li>
+                                                        <li><a href="#">chemistry</a></li>
+                                                        <li><a href="#">Maths</a></li>
+                                                        <li><a href="#">CSE</a></li>
+                                                        <li class="for_sub-menu"><a href="#">other books</a>
+                                                                <div class="btn_menu-sub">
+                                                                        <ul>
+                                                                                <li><a href="#">RD Sharma</a></li>
+                                                                                <li><a href="#">R S aggarwal</a></li>
+                                                                                <li><a href="#">H C verma</a></li>
+                                                                                <li><a href="#">irdov</a></li>
+                                                                                
+                                                                        </ul>
+                                                                </div>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                </li>
+                                <li><a href="#" class="btn nav_btn">Video</a>
+                                        <div class="btn_menu">
+                                                <ul>
+                                                        <li><a href="#">physics</a></li>
+                                                        <li><a href="#">chemistry</a></li>
+                                                        <li><a href="#">Maths</a></li>
+                                                        <li><a href="#">python</a></li>
+                                                        <li><a href="#">C++</a></li>
+                                                        
+                                                </ul>
+                                        </div>
+                                </li>
+                                <li><a href="#" class="btn nav_btn">Quiz</a>
+                                        <div class="btn_menu">
+                                                <ul>
+                                                        <li><a href="#">physics</a></li>
+                                                        <li><a href="#">chemistry</a></li>
+                                                        <li><a href="#">Maths</a></li>
+                                                        <li><a href="#">CSE</a></li>
+                                                </ul>
+                                        </div>
+                                </li>
+                                <li><a href="#" class="btn nav_btn">Mind-Maps</a>
+                                        <div class="btn_menu">
+                                                <ul>
+                                                        <li><a href="#">physics</a></li>
+                                                        <li><a href="#">chemistry</a></li>
+                                                        <li><a href="#">Maths</a></li>
+                                                        <li><a href="#">CSE</a></li>
+                                                </ul>
+                                        </div>
+                                </li>
+                        </ul>
+                        <form action="#" class="search">
+                                <input type="text" class="search__input" placeholder="Search subjects">
+                                <button class="search__button">
+                                    <svg class="search__icon">
+                                        <use xlink:href="icons/sprite copy.svg#icon-magnifying-glass"></use>
+                                    </svg>
+                                </button>
+                        </form>
+                        <ul>
+                                <li class="show-modal"><a href="#" class="btn nav_btn">about us</a>
+                                        <div class="modal hidden">
+                                                <p>
+                                                        <h2>About us</h2>
+                                                        Hi, Myself Anoop Kumar Gupta and i am 
+                                                        a student pursuing my btech degree from Lovely Professional University.
+                                                        I created this website for the students who wants to get understand the 
+                                                        concepts in-depth. Here, students can get solutions, quizes, animated videos,
+                                                        and much more.
+                                                </p>
+                                        </div>
+                                        <div class="overlay hidden"></div>
+                                </li>
+                                <li class="show-modal"><a href="#" class="btn nav_btn">contact us</a>
+                                        <div class="modal hidden">
+                                                <p>
+                                                email- conqueror231@gmail.com<br>
+                                                phone- 9293570223<br>
+                                                address- Gomti Nagar, Lucknow,<br>
+                                                Uttar Pradesh,226004
+                                                </p>
+                                        </div>
+                                        <div class="overlay hidden"></div>
+                                </li>
+                        </ul>
+                </nav>
+                <div class="header_box">
+                        <figure>
+                                <img src="images/20.png" alt="student" class="student">
+                        </figure>
+                        <div class="header_box-small">
+                                <h1 class="heading-1">Conqueror</h1>
+                                <h2 class="heading-2">LEARN TO LIVE</h2>
+                                <a href="#features" class="btn btn-full">Explore more</a>
+                        </div>
+                </div>
+        </header>
+
+        <section class="feature" id="features">
+                <div class="row">
+                    <h3 class="heading-3">Features</h3>
+                </div>
+                <div class="feature_boxes">
+                        <div class="feature_box feature_box-1">
+                                <object data="icons/tree-structure.svg" class="feature_icon"> </object>
+                                <h4 class="heading-4">Mind-Maps</h4>
+                                <p class="feature_p">Learn easily with the help of Mind-Maps which helps to remember and revise concepts
+                                        quickly.
+                                </p>
+                        </div>
+                        <div class="feature_box feature_box-2">
+                                <object data="icons/note-pencil.svg" class="feature_icon"> </object>
+                                <h4 class="heading-4">Answers</h4>
+                                <p class="feature_p">Get solutions of various books like competitive, board, solved sample papers, etc.</p>
+                        </div>
+                        <div class="feature_box feature_box-3">
+                                <object data="icons/books.svg" class="feature_icon"> </object>
+                                <h4 class="heading-4">E-books</h4>
+                                <p class="feature_p">Get e-books like NCERT, notes, etc without going anywhere else and know about the various 
+                                        other resources.
+                                </p>
+                        </div>
+
+
+
+                        <div class="feature_box feature_box-4">
+                                <object data="icons/brain.svg" class="feature_icon"> </object>
+                                <h4 class="heading-4">Quiz</h4>
+                                <p class="feature_p">Test how much you have learn and understand the concepts throught the course.</p>
+                        </div>
+
+
+
+                        <div class="feature_box feature_box-5">
+                                <object data="icons/monitor-play.svg" class="feature_icon"> </object>
+                                <h4 class="heading-4">Videos</h4>
+                                <p class="feature_p">watch the videos for better understanding of the concepts, it will help you learn the 
+                                        core fundamentals in simple ways. </p>
+                        </div>
+                        <div class="feature_box feature_box-6">
+                                <object data="icons/star.svg" class="feature_icon"> </object>
+                                <h4 class="heading-4">Extra</h4>
+                                <p class="feature_p">Get the best tips, tricks and other stuff for self-development along with studies.</p>
+                        </div>
+                </div>
+        </section>
+
+        <section class="Subjects">
+                <h3 class="heading-3 Subjects_heading">Subjects</h3>
+                <div>
+                        <div class="subject subject-1">
+                                <figure>
+                                        <img src="images/27.jpg" alt="physics" class="subject_img">
+                                </figure>
+                                <a href="webpages/physics.html" class="btn btn-full">Physics</a>
+                        </div>
+                        <div class="subject subject-2">
+                                <figure>
+                                        <img src="images/17.png" alt="chemistry" class="subject_img">
+                                </figure>
+                                <a href="#" class="btn btn-full">chemistry</a>
+                        </div>
+                        <div class="subject subject-3">
+                                <figure>
+                                        <img src="images/6.jpg" alt="Maths" class="subject_img">
+                                </figure>
+                                <a href="#" class="btn btn-full">Maths</a> 
+                        </div>
+                        <div class="subject subject-4">
+                                <figure>
+                                        <img src="images/21.jpg" alt="Computer science" class="subject_img">
+                                </figure>
+                                <a href="#" class="btn btn-full">Computer science</a>
+                        </div>
+                </div>
+        </section>
+
+        <section class="Plan">
+                <h4 class="heading-3 Plan_heading">Plans</h4>
+
+                <div class="Plan_img">
+                        <img src="images/19.jpg" alt="img">
+                </div>
+
+                <div class="Plan_box Plan_basic">
+                        <div class="Plan_box-price">
+                                <p>Basic <br><span>5$/month</span></p>
+                        </div>
+                        <div class="Plan_box-list">
+                                <ul>
+                                        <li><object data="icons/check-thin.svg" class="check_icon"> </object>Answers</li>
+                                        <li><object data="icons/check-thin.svg" class="check_icon"> </object>Mind-Maps</li>
+                                        <li><object data="icons/check-thin.svg" class="check_icon"> </object>Notes</li>
+                                        <li><object data="icons/check-thin.svg" class="check_icon"> </object>Quiz</li>
+                                        <li><object data="icons/x-thin.svg" class="check_icon"> </object>Videos</li>
+                                        <li><object data="icons/x-thin.svg" class="check_icon"> </object>E-books</li>
+                                        <li><object data="icons/x-thin.svg" class="check_icon"> </object>Extra stuffs</li>
+                                        <li><object data="icons/x-thin.svg" class="check_icon"> </object>Doubts clearing</li>
+                                </ul>
+                        </div> 
+                        <div class="Plan_box-signup">
+                                <a href="#" class="btn btn-full">sign-up</a>
+                        </div>
+                </div>
+
+                <div class="Plan_box Plan_premium">
+                        <div class="Plan_box-price">
+                                <p>Premium <br><span>10$/month</span></p>
+                        </div>
+                        <div class="Plan_box-list">
+                                <ul>
+                                        <li><object data="icons/check-thin.svg" class="check_icon"> </object>Answers</li>
+                                        <li><object data="icons/check-thin.svg" class="check_icon"> </object>Mind-Maps</li>
+                                        <li><object data="icons/check-thin.svg" class="check_icon"> </object>Notes</li>
+                                        <li><object data="icons/check-thin.svg" class="check_icon"> </object>Quiz</li>
+                                        <li><object data="icons/check-thin.svg" class="check_icon"> </object>Videos</li>
+                                        <li><object data="icons/check-thin.svg" class="check_icon"> </object>E-books</li>
+                                        <li><object data="icons/check-thin.svg" class="check_icon"> </object>Extra stuffs</li>
+                                        <li><object data="icons/check-thin.svg" class="check_icon"> </object>Doubts clearing</li>
+                                </ul>
+                        </div>
+                        <div class="Plan_box-signup">
+                                <a href="#" class="btn btn-full">sign-up</a>
+                        </div>
+                </div>
+        </section>
+
+        <section class="Reviews">
+                <div class="Review Review-1">
+                        <blockquote>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur soluta obcaecati, quo cupiditate ea 
+                                voluptatibus suscipit non, error alias.
+                        </blockquote>
+                        <cite><img src="images/29.jpg">Mikkel Nielsen</cite>
+                </div>
+                <div class="Review Review-2">
+                        <blockquote>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dignissimos esse voluptatum, blanditiis iste consequatur
+                                perspiciatis 
+                        </blockquote>
+                        <cite><img src="images/30.jpg">John snow</cite>
+                </div>
+                <div class="Review Review-3">
+                        <blockquote>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet perferendis quidem incidunt eius enim laboriosam?
+                                Iure dolore elit. Libero
+                        </blockquote>
+                        <cite><img src="images/31.jpg">Jonas kindewal</cite>
+                </div>
+        </section>
+
+        <section class="signup">
+                            <div class="book">
+                                <div class="book_form">
+                                    <form action="#" class="form">
+        
+                                        <h2 class="heading-secondary u-margin-bottom-medium">Start Learning</h2>
+                                        <input type="text" class="form_input u-margin-bottom-medium" placeholder="full Name" id="name" required>
+                                        <input type="email" class="form_input u-margin-bottom-medium" placeholder="email address" id="email address" required>
+        
+                                        <div class="form_group u-margin-bottom-medium">
+        
+                                            <div class="form_radio-group">
+                                                <input type="radio" class="form_radio-input" id="small" name="size" >
+                                                <label for="small" class="form_radio-label">
+                                                    <span class="form_radio-button"></span>
+                                                    Basic Plan
+                                                </label>
+                                                
+                                            </div>
+                                            <div class="form_radio-group">
+                                                <input type="radio" class="form_radio-input" id="large" name="size">
+                                                <label for="large" class="form_radio-label">
+                                                    <span class="form_radio-button"></span>
+                                                    Premium Plan
+                                                </label>        
+                                            </div>
+                                        </div>
+        
+                                        <div class="form_group ">
+                                            <button class="btn btn-full">Next step &rarr;</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+        </section>
+
+        <Footer class="Footer">
+                <div class="Footer_box">
+                        <ul class="Footer_nav">
+                                <li><a href="webpages/subjects.html">Subjects</a>
+                                        <ul>
+                                                <li><a href="webpages/physics.html">physics</a></li>
+                                                <li><a href="#">chemistry</a></li>
+                                                <li><a href="#">Maths</a></li>
+                                                <li><a href="#">CSE</a></li>
+                                        </ul>
+                                </li>
+                                <li><a href="#">Answers</a>
+                                        <ul>
+                                                <li><a href="#">physics</a></li>
+                                                <li><a href="#">chemistry</a></li>
+                                                <li><a href="#">Maths</a></li>
+                                                <li><a href="#">CSE</a></li>
+                                                <li><a href="#">other subjects</a></li>
+                                        </ul>
+                                </li>
+                                <li><a href="#">Quizes</a>
+                                        <ul>
+                                                <li><a href="#">physics</a></li>
+                                                <li><a href="#">chemistry</a></li>
+                                                <li><a href="#">Maths</a></li>
+                                                <li><a href="#">CSE</a></li>
+                                        </ul>
+                                </li>
+                                <li><a href="#">Videos</a>
+                                        <ul>
+                                                <li><a href="#">python</a></li>
+                                                <li><a href="#">C++</a></li>
+                                        </ul>
+                                </li>
+                                <li><a href="#">Mind-Maps</a>
+                                        <ul>
+                                                <li><a href="#">physics</a></li>
+                                                <li><a href="#">Maths</a></li>
+                                                <li><a href="#">CSE</a></li>
+                                        </ul>
+                                </li>
+
+                        </ul>
+                        <ul class="Footer_nav Footer_nav-PlaystoreButton">
+                                <div>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">About us</a></li>
+                                        <li><a href="#">Contact us</a></li>
+                                </div>
+                                <a href="#"><img src="images/download-app-android.png" alt="playstore" class="playstore_button"></a>
+                        </ul>
+
+                        <ul class="social-links">
+                                <li><a href="#" class="fa fa-facebook"></a></li>
+                                <li><a href="#" class="fa fa-twitter"></a></li>
+                                <li><a href="#" class="fa fa-google"></a></li>
+                                <li><a href="#" class="fa fa-instagram"></a></li>    
+                                <li><a href="#" class="fa fa-pinterest"></a></li>                              
+                                
+                        </ul>
+                </div>
+                <p>Copyright &copy; 2022 by Conqueror.</br> All rights are reserved.</p>
+        </Footer>
+        <script src="javascript/script.js"></script>
+</body>
+</html>
